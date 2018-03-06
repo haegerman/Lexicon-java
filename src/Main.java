@@ -13,9 +13,9 @@ public class Main {
 		System.out.println(list.size()); 
 		System.out.println(list.contains("Ulf")); 
 		System.out.println(list.remove(0));
-		list.add("Oliver"); 
+		System.out.println(list.add("Oliver")); 
 		System.out.println(list.toString());
-		
+		System.out.println("");		
 		
 		LinkedList<String> list2 = new LinkedList<>(); 
 		
@@ -26,7 +26,7 @@ public class Main {
 		System.out.println(list2.contains("Ulf")); 
 		System.out.println(list2.remove(0)); 
 		System.out.println(list2.toString());
-
+		System.out.println("");
 		
 		List<String> list3 = new LinkedList<>(); 
 		
